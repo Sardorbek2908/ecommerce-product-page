@@ -1,0 +1,223 @@
+@import url(./fonts.css);
+:root {
+    --gray:#69707D;
+    --dark:#1D2026;
+    --orange:#FF7E1B;
+    --lightorange: #FFAB6A;
+    --KumbhSans: "KumbhSans";
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+.container {
+    width: 1440px;
+    margin: auto;
+    /* padding: 0 165px; */
+}
+.site-header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+}
+.nav-menu {
+    display: flex;
+    column-gap: 56px;
+}
+.site-nav__menu {
+    display: flex;
+    width: 397px;
+    height: 26px;
+    padding-right: 1px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.nav-link {
+    color: var(--gray);
+    font-family: var(--KumbhSans);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.nav-link:hover {
+    color: var(--dark);
+}
+
+.nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: var(--orange);
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+    border-radius: 23px 10px 0px 0px;
+    margin-top: 45px;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+.nav-trade {
+    display: flex;
+    align-items: center;
+    column-gap: 46px;
+}
+.nav-trade__icon {
+    color: var(--dark);
+}
+.trade-img {
+    width: 50px;
+    height: 50px;
+}
+.line {
+    width: 1110px;
+    height: 1px;
+    background-color: var(--gray);
+    margin-top: 45px;
+}
+.sneaker {
+    display: flex;
+    column-gap: 125px;
+    margin-top: 90px;
+    flex-wrap: wrap;
+}
+.sneaker-img {
+    width: 445px;
+    height: 445px;
+}
+
+.sneaker-info__title {
+    width: 445px;
+    color: var(--orange);
+    font-family: var(--KumbhSans);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 62px;
+}
+.sneaker-title {
+    width: 445px;
+    color: var(--dark);
+    font-family: var(--KumbhSans);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px; /* 109.091% */
+    margin-top: 27px;
+}
+.sneaker-text {
+    width: 445px;
+    color: var(--gray);
+    font-family: var(--KumbhSans);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 32px;
+}
+.sneaker-money {
+    margin-top: 28px;
+}
+.discount-money {
+    display: flex;
+    column-gap: 24px;
+}
+.discount-price {
+    color: var(--dark);
+    font-family: var(--KumbhSans);
+    font-size: 28px;
+    font-weight: 700;
+}
+.discount {
+    width: 51px;
+    height: 27px;
+    color: var(--orange);
+    font-family: var(--KumbhSans);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    background: #FFEEE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price {
+    color: #B6BCC8;
+    font-family: var(--KumbhSans);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    margin-top: 10px;
+}
+.trade-sneaker {
+    display: flex;
+    column-gap: 22px;
+    margin-top: 32px;
+}
+.thenumber-sneaker {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 157px;
+    height: 56px;
+    padding: 26px 16px;
+    border-radius: 10px;
+    background: #F6F8FD;
+}
+.sneaker__product-btn {
+    color: var(--orange);
+}
+.sneaker-number {
+    color: var(--dark);
+    text-align: center;
+    font-family: var(--KumbhSans);
+    font-size: 16px;
+    font-weight: 700;
+}
+.sneaker__product-btn:active {
+    color: #FFAB6A;
+}
+.addCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 272px;
+    height: 56px;
+    border-radius: 10px;
+    border: none;
+    background: var(--orange);
+    box-shadow: 0px 20px 50px -20px #FF7E1B;
+    color: #FFF;
+    font-family: var(--KumbhSans);
+    font-size: 16px;
+    font-weight: 700;
+    column-gap: 15px;
+}
+.addCard:active {
+    background-color: #FFAB6A;
+}
+.sneaker-imgs {
+    display: flex;
+    column-gap: 31px;
+    margin-top: 32px;
+}
+.sneaker-image {
+    width: 88px;
+    height: 88px;
+    border-radius: 10px;
+}

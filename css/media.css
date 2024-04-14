@@ -1,0 +1,68 @@
+/* descktop */
+@media (max-width: 1440px) {}
+@media (max-width: 1320px) {}
+@media (max-width: 1290px) {}
+@media (max-width: 1170px) {}
+@media (max-width: 1140px) {}
+@media (max-width: 1024px) {}
+
+/* Tab */
+@media (max-width: 992px) {}
+@media (max-width: 850px) {}
+/* Mobile */
+@media (max-width: 768px) {}
+@media (max-width: 684px) {}
+/* mobile < 576 */
+@media (max-width: 576px) {}
+@media (max-width: 480px) {}
+@media (max-width: 412px) {}
+@media (max-width: 375px) {
+    .container {
+        max-width: 330px;
+        margin: auto;
+        /* padding:0; */
+    }
+    .sneaker-money {
+        display: flex;
+        justify-content: space-between;
+    }
+    .trade-sneaker {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+    .thenumber-sneaker {
+        width: 100%;
+    }
+    .addCard {
+        width: 100%;
+    }
+    .sneaker-img {
+        width: 330px;
+        height: 290px;
+    }
+    .sneaker-info__title {
+        width: 327px;
+    }
+    .sneaker-title {
+        width: 327px;
+        font-size: 28px;
+    }
+    .sneaker-text {
+        width: 327px;
+        font-size: 15px
+    }
+    .sneaker-imgs {
+        display: none;
+    }
+    .sneaker-image {
+        display: none;
+    } 
+    .site-nav__menu {
+        display: none;
+    }
+    .line {
+        display: none;
+    }
+}
+@media (max-width: 320px) {}
